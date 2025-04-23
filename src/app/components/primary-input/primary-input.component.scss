@@ -5,7 +5,7 @@
     font-size: 16px;
     text-align: start;
 
-    label{
+    label {
         margin-bottom: 10px;
     }
 
@@ -17,25 +17,19 @@
         .icon {
             padding: 12px;
             background-color: $primary-color;
+            border-radius: 0 8px 8px 0;
 
-        img{
-            height: 20px;
-
-        }
-
+            img {
+                height: 20px;
+            }
         }
 
         input {
             border: none;
-            border-radius: 8px;
+            border-radius: 8px 0 0 8px;
             background-color: $gray-secondary-bg;
-
-
             padding: 12px 0 12px 20px;
             width: 100%;
-
         }
     }
-
-
 }
